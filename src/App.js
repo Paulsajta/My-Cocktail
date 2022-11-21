@@ -21,8 +21,9 @@ function App() {
                   <Route path='/cocktail/:id' element={<InfoCocktail/>}/>
               </Route>
               <Route path='/favorites' element={<Favorites/>}/>
-              <Route path='/about' element={<About/>}/>
+              <Route path='/about' element={<About/>} />
           </Route>
+
       </Routes>
       </AnimatePresence>
   );

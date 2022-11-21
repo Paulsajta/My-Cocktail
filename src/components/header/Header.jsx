@@ -11,7 +11,7 @@ function Header() {
     return (
         <>
         <header>
-            <h2>MY C<span style={{color: '#79e1d2'}}>O</span>CKTAIL</h2>
+            <h2>MY C<span style={{color: '#79e1d2'}}>O</span>CKTAILS</h2>
             <nav>
                 <div className='nav'>
                     <NavLink end='/' to='/' onClick={() => setIngredient('')}>Home</NavLink>
