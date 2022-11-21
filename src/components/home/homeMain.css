@@ -1,0 +1,35 @@
+.home-main-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+                    'a b'
+                    'c c';
+    /*background: #b4eae2;*/
+}
+.main-left {
+    grid-area: a;
+    background: #f5bc00;
+}
+.main-right {
+    grid-area: b;
+    background: lightgray;
+}
+
+.main-bottom {
+    grid-area: c;
+}
+.main-bottom h6 {
+    background: #b4eae2;
+    width: 20%;
+    margin: 0 auto;
+    padding: 5px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+@media screen and (max-width: 475px){
+    .block-title {
+        font-size: 0.7rem;
+    }
+
+}

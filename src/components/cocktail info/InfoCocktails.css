@@ -1,0 +1,57 @@
+.info-container {
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    width: 80%;
+}
+.info-cocktail {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+            'c c c c'
+            'a b b b';
+    gap: 10px;
+}
+.info-image img {
+    grid-area: a;
+    width: 250px;
+}
+
+.info-recipe {
+    grid-area: c;
+    align-self: start;
+}
+
+.cocktail-dose {
+    grid-area: b;
+}
+.left-info {
+    padding: 3%;
+    text-align: right;
+    float: left;
+    width: 47%;
+    border-right: 1px solid black;
+}
+.right-info {
+    padding: 3%;
+    text-align: left;
+    float: left;
+    width: 47%;
+}
+
+@media screen and (max-width: 744px){
+    .info-cocktail {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+            'c'
+            'a'
+            'b';
+    }
+}
+@media screen and (max-width: 400px) {
+    .info-image img {
+        width: 150px;
+    }
+}

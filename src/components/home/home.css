@@ -1,0 +1,74 @@
+.main-top {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.clickAlcohol {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.container {
+    text-align: center;
+}
+.alcoholic {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ingredients {
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid gray;
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem;
+    text-decoration: none;
+    color: black;
+}
+
+.alcoholic a.active {
+    background: #79e1d2;
+}
+
+.alcoholic a:hover {
+    background: #79e1d2;
+}
+
+.bracket-left {
+    padding: 5px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.bracket-right {
+    padding: 5px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.cocktail-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin: 0 auto;
+    width: 75%;
+}
+
+@media screen and (max-width: 500px){
+    .cocktail-container {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+    .main-top {
+        width: 100%;
+    }
+    .cocktail-container {
+        width: 100%;
+    }
+}

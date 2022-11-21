@@ -1,0 +1,12 @@
+.input-search {
+    background: #79e1d2;
+}
+.input-search-wrap {
+    top: 15rem;
+    display: flex;
+    text-align: center;
+    flex-basis: 80%;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}

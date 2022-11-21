@@ -1,0 +1,16 @@
+footer {
+    background: darkgray;
+    text-align: center;
+}
+
+.text-in-circle {
+    margin: 5px auto 5px auto;
+    padding: 3px;
+    border: 2px solid white;
+    display: flex;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    align-items: center;
+    align-content: space-around;
+}
